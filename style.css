@@ -1,0 +1,43 @@
+.container {display: inline-block;}
+.text{
+    font-size: 5em;
+    letter-spacing: 10px;
+    font-family: monospace;
+     border-right: 5px solid;
+     width: 100%;
+     white-space: nowrap;
+     overflow: hidden;
+     animation:
+        typing 2s ,
+        cursor.4s step-end infinite alternate;
+}
+@keyframes cursor {
+50% {border-color: transparent;}
+}
+
+@keyframes typing{
+    from {width: 0}
+}
+
+button{
+    color: darkgrey
+}
+
+header{
+    background-color: grey;
+    }
+
+
+
+container{
+background-color: grey;
+}
+        
+l1 a{
+text-decoration: none;
+color: black;
+}
+
+center{
+    background-color: grey;
+}
