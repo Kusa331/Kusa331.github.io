@@ -1,0 +1,166 @@
+
+
+<!---header--->
+.fb-header{display: inline-block;}
+.fb-header-left{
+  font-size: 24px;
+}
+.fb-logo{
+  font-family: Arial;
+   border-right: 5px solid;
+   width: 100%;
+white-space: nowrap;
+   overflow: hidden;
+   animation:
+      typing 2s , 
+      cursor.4s step-end infinite
+}
+
+@keyframes cursor {
+50% {border-color: transparent ;}
+}
+
+@keyframes typing{
+  from {width: 0}
+}
+ 
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+}
+
+.fb-profile {
+  width: 80%;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.fb-cover-photo img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.fb-profile-info {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+  top: -50px;
+}
+
+.fb-profile-picture img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-right: 20px;
+}
+
+.fb-user-info h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.fb-user-info p {
+  margin: 5px 0;
+  color: #606770;
+}
+
+.fb-profile-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+
+.fb-profile-nav ul li {
+  margin-right: 20px;
+}
+
+.fb-profile-nav ul li a {
+  text-decoration: none;
+  color: #3b5998;
+  padding: 10px;
+  display: inline-block;
+}
+
+.fb-profile-nav ul li a:hover {
+  background-color: #e9ebee;
+  border-radius: 5px;
+}
+
+.fb-main-content {
+  padding: 20px;
+}
+
+.fb-posts {
+  margin-top: 20px;
+}
+
+.fb-post {
+  background-color: #f7f7f7;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.fb-post p {
+  margin: 0;
+}
+
+.fb-post span {
+  display: block;
+  margin-top: 5px;
+  color: #606770;
+  font-size: 12px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.fb-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3b5998;
+  padding: 10px 20px;
+  color: white;
+}
+
+.fb-header-left .fb-logo {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.fb-header-center .fb-search {
+  padding: 8px;
+  width: 300px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+.fb-header-right .fb-icon {
+  margin-left: 20px;
+  text-decoration: none;
+ color: white;
+  font-size: 16px;
+}
+
+.fb-header-right .fb-icon:hover {
+  text-decoration: underline; 
+  
+}
+
+
+
