@@ -164,3 +164,55 @@ body {
 
 
 
+/* Tablet styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .fb-header {
+      flex-direction: row;
+  }
+
+  .fb-profile {
+      width: 90%;
+      margin: 0 auto;
+  }
+
+  .fb-profile-info {
+      padding: 15px;
+  }
+
+  .fb-user-info h1 {
+      font-size: 26px;
+  }
+
+  .fb-main-content {
+      padding: 15px;
+  }
+
+  .fb-post {
+      padding: 15px;
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 1025px) {
+  .fb-profile {
+      width: 80%;
+      margin: 0 auto;
+  }
+
+  .fb-header {
+      padding: 20px 40px;
+  }
+
+  .fb-user-info h1 {
+      font-size: 28px;
+  }
+
+  .fb-main-content {
+      padding: 20px;
+  }
+
+  .fb-post {
+      padding: 20px;
+  }
+}
+
