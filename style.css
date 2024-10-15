@@ -216,3 +216,45 @@ body {
   }
 }
 
+
+/* Mobile styles */
+@media (max-width: 600px) {
+    .fb-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .fb-header-center {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .fb-header-right {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .fb-icon {
+        padding: 10px 0;
+    }
+
+    .fb-profile-info {
+        margin-top: -30px;
+    }
+
+    .fb-profile-picture img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .fb-profile-nav {
+        margin-top: 15px;
+    }
+
+    .fb-profile-nav li {
+        display: block;
+        margin: 5px 0;
+    }
+}
+
