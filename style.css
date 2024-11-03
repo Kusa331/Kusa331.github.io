@@ -59,18 +59,18 @@ body {
 }
 
 .logo {
-    width: 100px; /* Adjust width as needed */
+    width: 100px;
     height: auto;
     cursor: pointer;
     margin-right: auto;
-    display: flex;      /* Add this */
-    align-items: center; /* Add this */
+    display: flex;    
+    align-items: center; 
 }
 
 .logo img {
-    width: 60%;     /* Add this */
-    height: auto;    /* Add this */
-    object-fit: contain; /* Add this */
+    width: 60%;     
+    height: auto;    
+    object-fit: contain; 
 }
 .navbar a {
     position: relative;
@@ -192,7 +192,7 @@ section{
 }
 
 .htmls a:hover {
-    transform: scale(1.03); /* Use scale() for uniform scaling */
+    transform: scale(1.03); 
     background-color: var(--main-color);
     color: var(--white-color);
     box-shadow: 0 0 25px var(--main-color);
@@ -445,21 +445,21 @@ span{
 }
 
 .project-content img{
-    width: 300px;  /* Increased width for better visibility */
-    height: auto;  /* Maintains aspect ratio */
-    object-fit: cover; /* Ensures image covers the area nicely */
-    border-radius: 8px; /* Optional: adds rounded corners */
-    margin: 1rem; /* Adds some spacing between images */
-    box-shadow: 0 2px 5px var(--shadow-color); /* Optional: adds subtle shadow */
-    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+    width: 300px;  
+    height: auto;  
+    object-fit: cover; 
+    border-radius: 8px; 
+    margin: 1rem; 
+    box-shadow: 0 2px 5px var(--shadow-color); 
+    transition: transform 0.3s ease; 
 }
 
-/* Optional: Add hover effect */
+
 .project-content img:hover {
-    transform: scale(1.05); /* Slightly enlarges image on hover */
+    transform: scale(1.05); 
 }
 
-/* For side-by-side images */
+
 .project-content .left-image {
     float: left;
 }
@@ -552,8 +552,7 @@ span{
 
 
 
-/* Media Queries for Responsiveness */
-/* Large devices (1200px and below) */
+
 @media (max-width: 1200px) {
     html {
         font-size: 55%; 
@@ -569,7 +568,7 @@ span{
     }
 }
 
-/* Medium devices (1024px and below) */
+
 @media (max-width: 1024px) {
     .header {
         padding: 2rem 3%;
@@ -588,7 +587,7 @@ span{
     }
 }
 
-/* Small devices (991px and below) */
+
 @media (max-width: 991px) {
     .navbar a:nth-child(1),
     .navbar a:nth-child(2) {
@@ -629,7 +628,7 @@ span{
     }
 
 
-/* Extra small devices (768px and below) */
+
 @media (max-width: 768px) {
     #menu-icon {
         display: block; 
@@ -738,7 +737,7 @@ span{
     }
 }
 
-/* Mobile devices (617px and below) */
+
 @media (max-width: 617px) {
     html {
         font-size: 50%; 
@@ -779,7 +778,7 @@ span{
     }
 }
 
-/* Extra small devices (450px and below) */
+
 @media (max-width: 450px) {
     html {
         font-size: 45%; 
@@ -826,7 +825,7 @@ span{
     }
 }
 
-/* Tiny devices (365px and below) */
+
 @media (max-width: 365px) {
     html {
         font-size: 40%;
