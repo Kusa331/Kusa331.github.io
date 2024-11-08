@@ -1,6 +1,0 @@
-.icons_application{
-width: 32px; height: 32px;margin-right: 10px;transition: transform 0.3s ease;
-}
-img:hover {
-    transform: scale(1.5); /* Mo-dako ug 1.5 times sa original size */
-}
