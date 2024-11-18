@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 //Type Writer Animation
-const texts = [" Developer", "UI/UX Designer", "Front-end Developer", "Back-end Developer", "Student"];
+const texts = [" Developer", "UI/UX Designer", "Front-end Developer", "Back-end Developer", "IT-Student"];
 let index = 0;
 let charIndex = 0;
 let currentText = '';
