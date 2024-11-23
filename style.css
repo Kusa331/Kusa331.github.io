@@ -341,11 +341,21 @@ glow-container2 {
     
 }
 
-.glow-container2 img {
-    width: 45%;
-    height: auto; 
+.glow-container2 {
+    text-align: center;
+    margin: 20px;
 }
 
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+}
+
+.image {
+    width: 300px; 
+    height: auto;  
+}
 
 
 .glow-container2:hover {
