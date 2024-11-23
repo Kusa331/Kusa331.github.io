@@ -342,17 +342,15 @@ glow-container2 {
 }
 
 .glow-container2 img {
-    width: 350px;        
-    height: 350 px;      
-    object-fit: cover;   
-    margin:10px;        
-    box-sizing: border-box; 
+    width: 45%;
+    height: auto; 
+    margin: 10px;
+    transition: transform 0.3s; 
 }
 
-
-.glow-container2:hover {
-    transform: scale(0.9); 
-}
+.glow-container2 img:hover {
+    transform: scale(1.05); 
+}   
 
 
 
