@@ -332,22 +332,21 @@ html {
 
 
 
-
-
-.glow-container2 {
+glow-container2 {
     text-align: center;
-    margin: 20px;
-}
-
-.image-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px; 
-}
-
-.image {
+    height: 50px;
     width: 50px; 
-    height: auto;  
+    padding: 50px;
+    transition: transform 0.3s ease;
+    
+}
+
+.glow-container2 img {
+    width: 350px;        
+    height: 350 px;      
+    object-fit: cover;   
+    margin:10px;        
+    box-sizing: border-box; 
 }
 
 
