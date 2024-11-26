@@ -74,12 +74,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-//API
-fetch('/api/button')
-.then(response => response.json())
-.then(data => {
-    document.getElementById('button-container').innerHTML = data.html;
-});
+
 
 
 //skill bar
@@ -93,3 +88,12 @@ window.addEventListener('load', () => {
         skill.classList.add('active'); 
     });
 });
+
+
+//API
+fetch('/api/button')
+.then(response => response.json())
+.then(data => {
+    document.getElementById('button-container').innerHTML = data.html;
+});
+
