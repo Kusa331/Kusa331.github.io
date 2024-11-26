@@ -587,3 +587,35 @@ body.light-mode .glow-container3,
 body.light-mode .glow-container4 {
     background-color: #ffffff; 
 }
+
+
+
+/* Skill level bar */
+.skill-level {
+    background-color: #4CAF50;
+    height: 8px;
+    border-radius: 4px;
+    margin-top: 5px;
+    width: 0%; 
+    position: relative;
+    transition: width 2s ease; 
+}
+
+.skill-level::after {
+    content: attr(data-level) "%";
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+.skill-level.active {
+    width: 100%; 
+}
+
+
+
+
