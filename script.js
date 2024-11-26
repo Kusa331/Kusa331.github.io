@@ -80,3 +80,16 @@ fetch('/api/button')
 .then(data => {
     document.getElementById('button-container').innerHTML = data.html;
 });
+
+
+//skill bar
+window.addEventListener('load', () => {
+    const skillLevels = document.querySelectorAll('.skill-level');
+
+   
+    skillLevels.forEach(skill => {
+        const level = skill.getAttribute('data-level');
+        skill.style.width = `${level}%`;
+        skill.classList.add('active'); 
+    });
+});
