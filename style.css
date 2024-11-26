@@ -500,7 +500,7 @@ body {
 header {
     padding: 1rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     align-items: center;
     transition: background-color 0.3s, color 0.3s;
 }
@@ -526,13 +526,17 @@ header {
     color: #ffffff; 
 }
 
+
 .theme-toggle {
     background: none;
     border: none;
     color: #ffffff;
     font-size: 1.5rem;
     cursor: pointer;
+    align-self: center;
+    margin-left: auto; 
 }
+
 
 section {
     padding: 2rem;
