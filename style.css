@@ -590,7 +590,31 @@ body.light-mode .glow-container4 {
 
 
 
-/* Skill level bar */
+
+
+/* skill bar*/
+.skill-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill {
+    position: relative;
+    width: 100px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skill-icon {
+    width: 50px;
+    height: 50px;
+}
+
+
+
 .skill-level {
     background-color: #4CAF50;
     height: 8px;
@@ -615,7 +639,6 @@ body.light-mode .glow-container4 {
 .skill-level.active {
     width: 100%; 
 }
-
 
 
 
