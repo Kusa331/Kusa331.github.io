@@ -353,7 +353,6 @@ glow-container2 {
 }   
 
 
-
 .glow-container3 {
     max-width: 800px; 
     margin: 0 auto; 
@@ -591,7 +590,6 @@ body.light-mode .glow-container4 {
 
 
 
-
 /* skill bar*/
 .skill-bar {
     display: flex;
@@ -612,8 +610,6 @@ body.light-mode .glow-container4 {
     width: 50px;
     height: 50px;
 }
-
-
 
 .skill-level {
     background-color: #4CAF50;
@@ -639,6 +635,3 @@ body.light-mode .glow-container4 {
 .skill-level.active {
     width: 100%; 
 }
-
-
-
